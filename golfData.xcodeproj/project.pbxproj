@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07049138DE8545FFA6112EC6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF8DFFACE7A4A0D995FD35D /* libPods.a */; };
+		59120EC118DE7B2100DEE1B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59120EC018DE7B2100DEE1B1 /* Foundation.framework */; };
+		59120EC318DE7B2100DEE1B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59120EC218DE7B2100DEE1B1 /* CoreGraphics.framework */; };
+		59120EC518DE7B2100DEE1B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59120EC418DE7B2100DEE1B1 /* UIKit.framework */; };
+		59120ECB18DE7B2100DEE1B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59120EC918DE7B2100DEE1B1 /* InfoPlist.strings */; };
+		59120ECD18DE7B2100DEE1B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59120ECC18DE7B2100DEE1B1 /* main.m */; };
+		59120ED118DE7B2100DEE1B1 /* IEDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59120ED018DE7B2100DEE1B1 /* IEDAppDelegate.m */; };
+		59120ED418DE7B2100DEE1B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59120ED218DE7B2100DEE1B1 /* Main.storyboard */; };
+		59120ED918DE7B2100DEE1B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59120ED818DE7B2100DEE1B1 /* Images.xcassets */; };
+		59120EE018DE7B2200DEE1B1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59120EDF18DE7B2200DEE1B1 /* XCTest.framework */; };
+		59120EE118DE7B2200DEE1B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59120EC018DE7B2100DEE1B1 /* Foundation.framework */; };
+		59120EE218DE7B2200DEE1B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59120EC418DE7B2100DEE1B1 /* UIKit.framework */; };
+		59120EEA18DE7B2200DEE1B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59120EE818DE7B2200DEE1B1 /* InfoPlist.strings */; };
+		59120EEC18DE7B2200DEE1B1 /* golfDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59120EEB18DE7B2200DEE1B1 /* golfDataTests.m */; };
+		59120F0418DE7EB100DEE1B1 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 59120EF718DE7EB100DEE1B1 /* CoreDataHelper.m */; };
+		59120F0518DE7EB100DEE1B1 /* CoreDataImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 59120EF918DE7EB100DEE1B1 /* CoreDataImporter.m */; };
+		59120F0618DE7EB100DEE1B1 /* CoreDataPickerTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 59120EFB18DE7EB100DEE1B1 /* CoreDataPickerTF.m */; };
+		59120F0718DE7EB100DEE1B1 /* CoreDataTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 59120EFD18DE7EB100DEE1B1 /* CoreDataTVC.m */; };
+		59120F0818DE7EB100DEE1B1 /* Deduplicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 59120EFF18DE7EB100DEE1B1 /* Deduplicator.m */; };
+		59120F0918DE7EB100DEE1B1 /* Faulter.m in Sources */ = {isa = PBXBuildFile; fileRef = 59120F0118DE7EB100DEE1B1 /* Faulter.m */; };
+		59120F0A18DE7EB100DEE1B1 /* Thumbnailer.m in Sources */ = {isa = PBXBuildFile; fileRef = 59120F0318DE7EB100DEE1B1 /* Thumbnailer.m */; };
+		5944C21818DEBA8400C4DF9B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5944C21618DEBA8400C4DF9B /* Model.xcdatamodeld */; };
+		5944C22D18DED3AB00C4DF9B /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944C22C18DED3AB00C4DF9B /* Round.m */; };
+		5944C23018DED3AC00C4DF9B /* Hole.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944C22F18DED3AC00C4DF9B /* Hole.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59120EE318DE7B2200DEE1B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59120EB518DE7B2100DEE1B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59120EBC18DE7B2100DEE1B1;
+			remoteInfo = golfData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59120EBD18DE7B2100DEE1B1 /* golfData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = golfData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59120EC018DE7B2100DEE1B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		59120EC218DE7B2100DEE1B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		59120EC418DE7B2100DEE1B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		59120EC818DE7B2100DEE1B1 /* golfData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "golfData-Info.plist"; sourceTree = "<group>"; };
+		59120ECA18DE7B2100DEE1B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59120ECC18DE7B2100DEE1B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59120ECE18DE7B2100DEE1B1 /* golfData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "golfData-Prefix.pch"; sourceTree = "<group>"; };
+		59120ECF18DE7B2100DEE1B1 /* IEDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IEDAppDelegate.h; sourceTree = "<group>"; };
+		59120ED018DE7B2100DEE1B1 /* IEDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IEDAppDelegate.m; sourceTree = "<group>"; };
+		59120ED318DE7B2100DEE1B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59120ED818DE7B2100DEE1B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		59120EDE18DE7B2200DEE1B1 /* golfDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = golfDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59120EDF18DE7B2200DEE1B1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		59120EE718DE7B2200DEE1B1 /* golfDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "golfDataTests-Info.plist"; sourceTree = "<group>"; };
+		59120EE918DE7B2200DEE1B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59120EEB18DE7B2200DEE1B1 /* golfDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = golfDataTests.m; sourceTree = "<group>"; };
+		59120EF618DE7EB100DEE1B1 /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		59120EF718DE7EB100DEE1B1 /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		59120EF818DE7EB100DEE1B1 /* CoreDataImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataImporter.h; sourceTree = "<group>"; };
+		59120EF918DE7EB100DEE1B1 /* CoreDataImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataImporter.m; sourceTree = "<group>"; };
+		59120EFA18DE7EB100DEE1B1 /* CoreDataPickerTF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataPickerTF.h; sourceTree = "<group>"; };
+		59120EFB18DE7EB100DEE1B1 /* CoreDataPickerTF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataPickerTF.m; sourceTree = "<group>"; };
+		59120EFC18DE7EB100DEE1B1 /* CoreDataTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTVC.h; sourceTree = "<group>"; };
+		59120EFD18DE7EB100DEE1B1 /* CoreDataTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTVC.m; sourceTree = "<group>"; };
+		59120EFE18DE7EB100DEE1B1 /* Deduplicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deduplicator.h; sourceTree = "<group>"; };
+		59120EFF18DE7EB100DEE1B1 /* Deduplicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deduplicator.m; sourceTree = "<group>"; };
+		59120F0018DE7EB100DEE1B1 /* Faulter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Faulter.h; sourceTree = "<group>"; };
+		59120F0118DE7EB100DEE1B1 /* Faulter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Faulter.m; sourceTree = "<group>"; };
+		59120F0218DE7EB100DEE1B1 /* Thumbnailer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thumbnailer.h; sourceTree = "<group>"; };
+		59120F0318DE7EB100DEE1B1 /* Thumbnailer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thumbnailer.m; sourceTree = "<group>"; };
+		5944C21718DEBA8400C4DF9B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		5944C22B18DED3AB00C4DF9B /* Round.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round.h; sourceTree = "<group>"; };
+		5944C22C18DED3AB00C4DF9B /* Round.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Round.m; sourceTree = "<group>"; };
+		5944C22E18DED3AC00C4DF9B /* Hole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hole.h; sourceTree = "<group>"; };
+		5944C22F18DED3AC00C4DF9B /* Hole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hole.m; sourceTree = "<group>"; };
+		C092FEA43D7747C3B0198EA0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		EDF8DFFACE7A4A0D995FD35D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59120EBA18DE7B2100DEE1B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59120EC318DE7B2100DEE1B1 /* CoreGraphics.framework in Frameworks */,
+				59120EC518DE7B2100DEE1B1 /* UIKit.framework in Frameworks */,
+				59120EC118DE7B2100DEE1B1 /* Foundation.framework in Frameworks */,
+				07049138DE8545FFA6112EC6 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59120EDB18DE7B2200DEE1B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59120EE018DE7B2200DEE1B1 /* XCTest.framework in Frameworks */,
+				59120EE218DE7B2200DEE1B1 /* UIKit.framework in Frameworks */,
+				59120EE118DE7B2200DEE1B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59120EB418DE7B2100DEE1B1 = {
+			isa = PBXGroup;
+			children = (
+				59120EC618DE7B2100DEE1B1 /* golfData */,
+				59120EE518DE7B2200DEE1B1 /* golfDataTests */,
+				59120EBF18DE7B2100DEE1B1 /* Frameworks */,
+				59120EBE18DE7B2100DEE1B1 /* Products */,
+				C092FEA43D7747C3B0198EA0 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		59120EBE18DE7B2100DEE1B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59120EBD18DE7B2100DEE1B1 /* golfData.app */,
+				59120EDE18DE7B2200DEE1B1 /* golfDataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59120EBF18DE7B2100DEE1B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59120EC018DE7B2100DEE1B1 /* Foundation.framework */,
+				59120EC218DE7B2100DEE1B1 /* CoreGraphics.framework */,
+				59120EC418DE7B2100DEE1B1 /* UIKit.framework */,
+				59120EDF18DE7B2200DEE1B1 /* XCTest.framework */,
+				EDF8DFFACE7A4A0D995FD35D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59120EC618DE7B2100DEE1B1 /* golfData */ = {
+			isa = PBXGroup;
+			children = (
+				59120F0D18DE89E700DEE1B1 /* TableView Controllers */,
+				59120F0C18DE89CC00DEE1B1 /* View Controllers */,
+				59120F0B18DE89C400DEE1B1 /* Data Model */,
+				59120ECF18DE7B2100DEE1B1 /* IEDAppDelegate.h */,
+				59120ED018DE7B2100DEE1B1 /* IEDAppDelegate.m */,
+				59120ED218DE7B2100DEE1B1 /* Main.storyboard */,
+				59120ED818DE7B2100DEE1B1 /* Images.xcassets */,
+				59120EF518DE7EB100DEE1B1 /* Generic Core Data Classes */,
+				59120EC718DE7B2100DEE1B1 /* Supporting Files */,
+			);
+			path = golfData;
+			sourceTree = "<group>";
+		};
+		59120EC718DE7B2100DEE1B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59120EC818DE7B2100DEE1B1 /* golfData-Info.plist */,
+				59120EC918DE7B2100DEE1B1 /* InfoPlist.strings */,
+				59120ECC18DE7B2100DEE1B1 /* main.m */,
+				59120ECE18DE7B2100DEE1B1 /* golfData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59120EE518DE7B2200DEE1B1 /* golfDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				59120EEB18DE7B2200DEE1B1 /* golfDataTests.m */,
+				59120EE618DE7B2200DEE1B1 /* Supporting Files */,
+			);
+			path = golfDataTests;
+			sourceTree = "<group>";
+		};
+		59120EE618DE7B2200DEE1B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59120EE718DE7B2200DEE1B1 /* golfDataTests-Info.plist */,
+				59120EE818DE7B2200DEE1B1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59120EF518DE7EB100DEE1B1 /* Generic Core Data Classes */ = {
+			isa = PBXGroup;
+			children = (
+				59120EF618DE7EB100DEE1B1 /* CoreDataHelper.h */,
+				59120EF718DE7EB100DEE1B1 /* CoreDataHelper.m */,
+				59120EF818DE7EB100DEE1B1 /* CoreDataImporter.h */,
+				59120EF918DE7EB100DEE1B1 /* CoreDataImporter.m */,
+				59120EFA18DE7EB100DEE1B1 /* CoreDataPickerTF.h */,
+				59120EFB18DE7EB100DEE1B1 /* CoreDataPickerTF.m */,
+				59120EFC18DE7EB100DEE1B1 /* CoreDataTVC.h */,
+				59120EFD18DE7EB100DEE1B1 /* CoreDataTVC.m */,
+				59120EFE18DE7EB100DEE1B1 /* Deduplicator.h */,
+				59120EFF18DE7EB100DEE1B1 /* Deduplicator.m */,
+				59120F0018DE7EB100DEE1B1 /* Faulter.h */,
+				59120F0118DE7EB100DEE1B1 /* Faulter.m */,
+				59120F0218DE7EB100DEE1B1 /* Thumbnailer.h */,
+				59120F0318DE7EB100DEE1B1 /* Thumbnailer.m */,
+			);
+			path = "Generic Core Data Classes";
+			sourceTree = "<group>";
+		};
+		59120F0B18DE89C400DEE1B1 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				5944C21618DEBA8400C4DF9B /* Model.xcdatamodeld */,
+				5944C22E18DED3AC00C4DF9B /* Hole.h */,
+				5944C22F18DED3AC00C4DF9B /* Hole.m */,
+				5944C22B18DED3AB00C4DF9B /* Round.h */,
+				5944C22C18DED3AB00C4DF9B /* Round.m */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		59120F0C18DE89CC00DEE1B1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		59120F0D18DE89E700DEE1B1 /* TableView Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "TableView Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59120EBC18DE7B2100DEE1B1 /* golfData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59120EEF18DE7B2200DEE1B1 /* Build configuration list for PBXNativeTarget "golfData" */;
+			buildPhases = (
+				A3808BB7ED4C4B229FF8B1D3 /* Check Pods Manifest.lock */,
+				59120EB918DE7B2100DEE1B1 /* Sources */,
+				59120EBA18DE7B2100DEE1B1 /* Frameworks */,
+				59120EBB18DE7B2100DEE1B1 /* Resources */,
+				02E19E0D3E6942E19AFEC82B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = golfData;
+			productName = golfData;
+			productReference = 59120EBD18DE7B2100DEE1B1 /* golfData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59120EDD18DE7B2200DEE1B1 /* golfDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59120EF218DE7B2200DEE1B1 /* Build configuration list for PBXNativeTarget "golfDataTests" */;
+			buildPhases = (
+				59120EDA18DE7B2200DEE1B1 /* Sources */,
+				59120EDB18DE7B2200DEE1B1 /* Frameworks */,
+				59120EDC18DE7B2200DEE1B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59120EE418DE7B2200DEE1B1 /* PBXTargetDependency */,
+			);
+			name = golfDataTests;
+			productName = golfDataTests;
+			productReference = 59120EDE18DE7B2200DEE1B1 /* golfDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59120EB518DE7B2100DEE1B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IED;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = iEndeavour;
+				TargetAttributes = {
+					59120EDD18DE7B2200DEE1B1 = {
+						TestTargetID = 59120EBC18DE7B2100DEE1B1;
+					};
+				};
+			};
+			buildConfigurationList = 59120EB818DE7B2100DEE1B1 /* Build configuration list for PBXProject "golfData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59120EB418DE7B2100DEE1B1;
+			productRefGroup = 59120EBE18DE7B2100DEE1B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59120EBC18DE7B2100DEE1B1 /* golfData */,
+				59120EDD18DE7B2200DEE1B1 /* golfDataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59120EBB18DE7B2100DEE1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59120ED918DE7B2100DEE1B1 /* Images.xcassets in Resources */,
+				59120ECB18DE7B2100DEE1B1 /* InfoPlist.strings in Resources */,
+				59120ED418DE7B2100DEE1B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59120EDC18DE7B2200DEE1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59120EEA18DE7B2200DEE1B1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02E19E0D3E6942E19AFEC82B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3808BB7ED4C4B229FF8B1D3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59120EB918DE7B2100DEE1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59120ECD18DE7B2100DEE1B1 /* main.m in Sources */,
+				5944C23018DED3AC00C4DF9B /* Hole.m in Sources */,
+				59120F0A18DE7EB100DEE1B1 /* Thumbnailer.m in Sources */,
+				59120F0918DE7EB100DEE1B1 /* Faulter.m in Sources */,
+				59120F0818DE7EB100DEE1B1 /* Deduplicator.m in Sources */,
+				59120F0518DE7EB100DEE1B1 /* CoreDataImporter.m in Sources */,
+				5944C22D18DED3AB00C4DF9B /* Round.m in Sources */,
+				59120F0618DE7EB100DEE1B1 /* CoreDataPickerTF.m in Sources */,
+				59120ED118DE7B2100DEE1B1 /* IEDAppDelegate.m in Sources */,
+				5944C21818DEBA8400C4DF9B /* Model.xcdatamodeld in Sources */,
+				59120F0418DE7EB100DEE1B1 /* CoreDataHelper.m in Sources */,
+				59120F0718DE7EB100DEE1B1 /* CoreDataTVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59120EDA18DE7B2200DEE1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59120EEC18DE7B2200DEE1B1 /* golfDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59120EE418DE7B2200DEE1B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59120EBC18DE7B2100DEE1B1 /* golfData */;
+			targetProxy = 59120EE318DE7B2200DEE1B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59120EC918DE7B2100DEE1B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59120ECA18DE7B2100DEE1B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		59120ED218DE7B2100DEE1B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59120ED318DE7B2100DEE1B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59120EE818DE7B2200DEE1B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59120EE918DE7B2200DEE1B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59120EED18DE7B2200DEE1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		59120EEE18DE7B2200DEE1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59120EF018DE7B2200DEE1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C092FEA43D7747C3B0198EA0 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "golfData/golfData-Prefix.pch";
+				INFOPLIST_FILE = "golfData/golfData-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		59120EF118DE7B2200DEE1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C092FEA43D7747C3B0198EA0 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "golfData/golfData-Prefix.pch";
+				INFOPLIST_FILE = "golfData/golfData-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		59120EF318DE7B2200DEE1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/golfData.app/golfData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "golfData/golfData-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "golfDataTests/golfDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		59120EF418DE7B2200DEE1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/golfData.app/golfData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "golfData/golfData-Prefix.pch";
+				INFOPLIST_FILE = "golfDataTests/golfDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59120EB818DE7B2100DEE1B1 /* Build configuration list for PBXProject "golfData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59120EED18DE7B2200DEE1B1 /* Debug */,
+				59120EEE18DE7B2200DEE1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59120EEF18DE7B2200DEE1B1 /* Build configuration list for PBXNativeTarget "golfData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59120EF018DE7B2200DEE1B1 /* Debug */,
+				59120EF118DE7B2200DEE1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59120EF218DE7B2200DEE1B1 /* Build configuration list for PBXNativeTarget "golfDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59120EF318DE7B2200DEE1B1 /* Debug */,
+				59120EF418DE7B2200DEE1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5944C21618DEBA8400C4DF9B /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5944C21718DEBA8400C4DF9B /* Model.xcdatamodel */,
+			);
+			currentVersion = 5944C21718DEBA8400C4DF9B /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 59120EB518DE7B2100DEE1B1 /* Project object */;
+}
