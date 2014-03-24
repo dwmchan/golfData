@@ -2,7 +2,7 @@
 //  Round.m
 //  golfData
 //
-//  Created by Donald Chan on 23/03/2014.
+//  Created by Donald Chan on 24/03/2014.
 //  Copyright (c) 2014 iEndeavour. All rights reserved.
 //
 
@@ -12,10 +12,10 @@
 
 @implementation Round
 
-@dynamic date;
-@dynamic roundID;
-@dynamic out;
+@dynamic createdDate;
 @dynamic in;
+@dynamic out;
+@dynamic roundID;
 @dynamic totalOut;
 @dynamic holes;
 

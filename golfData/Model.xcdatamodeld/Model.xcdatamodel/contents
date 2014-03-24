@@ -13,7 +13,7 @@
         <relationship name="round" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Round" inverseName="holes" inverseEntity="Round" syncable="YES"/>
     </entity>
     <entity name="Round" representedClassName="Round" syncable="YES">
-        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="createdDate" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="in" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <attribute name="out" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <attribute name="roundID" optional="YES" attributeType="String" syncable="YES"/>
@@ -22,6 +22,6 @@
     </entity>
     <elements>
         <element name="Hole" positionX="-470" positionY="26" width="128" height="193"/>
-        <element name="Round" positionX="-272" positionY="56" width="128" height="133"/>
+        <element name="Round" positionX="-272" positionY="56" width="128" height="135"/>
     </elements>
 </model>

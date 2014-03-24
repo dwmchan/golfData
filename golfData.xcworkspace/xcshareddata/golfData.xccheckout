@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>8D8124B0-02CF-4E4D-99D3-99EF5E3FD45F</string>
+	<string>DF914CA6-47B9-46C4-89DC-69BF8803F553</string>
 	<key>IDESourceControlProjectName</key>
 	<string>golfData</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>CD516704-D5FF-4FE4-A61D-3335FBD5C632</key>
-		<string>https://Donalds-Mac-mini.local/git/golfData.git</string>
+		<key>F3524A16-B6A7-4A3E-9756-36B61AF025ED</key>
+		<string>https://github.com/dwmchan/golfData.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>golfData.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>CD516704-D5FF-4FE4-A61D-3335FBD5C632</key>
+		<key>F3524A16-B6A7-4A3E-9756-36B61AF025ED</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://Donalds-Mac-mini.local/git/golfData.git</string>
+	<string>https://github.com/dwmchan/golfData.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>CD516704-D5FF-4FE4-A61D-3335FBD5C632</string>
+	<string>F3524A16-B6A7-4A3E-9756-36B61AF025ED</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>CD516704-D5FF-4FE4-A61D-3335FBD5C632</string>
+			<string>F3524A16-B6A7-4A3E-9756-36B61AF025ED</string>
 			<key>IDESourceControlWCCName</key>
 			<string>golfData</string>
 		</dict>

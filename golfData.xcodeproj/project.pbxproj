@@ -28,9 +28,10 @@
 		59120F0818DE7EB100DEE1B1 /* Deduplicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 59120EFF18DE7EB100DEE1B1 /* Deduplicator.m */; };
 		59120F0918DE7EB100DEE1B1 /* Faulter.m in Sources */ = {isa = PBXBuildFile; fileRef = 59120F0118DE7EB100DEE1B1 /* Faulter.m */; };
 		59120F0A18DE7EB100DEE1B1 /* Thumbnailer.m in Sources */ = {isa = PBXBuildFile; fileRef = 59120F0318DE7EB100DEE1B1 /* Thumbnailer.m */; };
+		593F5BEC18DFC659002956DB /* IEDGolfRoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 593F5BEB18DFC659002956DB /* IEDGolfRoundViewController.m */; };
+		593F5BEF18DFE082002956DB /* Hole.m in Sources */ = {isa = PBXBuildFile; fileRef = 593F5BEE18DFE082002956DB /* Hole.m */; };
+		593F5BF518DFE5E1002956DB /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 593F5BF418DFE5E1002956DB /* Round.m */; };
 		5944C21818DEBA8400C4DF9B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5944C21618DEBA8400C4DF9B /* Model.xcdatamodeld */; };
-		5944C22D18DED3AB00C4DF9B /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944C22C18DED3AB00C4DF9B /* Round.m */; };
-		5944C23018DED3AC00C4DF9B /* Hole.m in Sources */ = {isa = PBXBuildFile; fileRef = 5944C22F18DED3AC00C4DF9B /* Hole.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,11 +76,13 @@
 		59120F0118DE7EB100DEE1B1 /* Faulter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Faulter.m; sourceTree = "<group>"; };
 		59120F0218DE7EB100DEE1B1 /* Thumbnailer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thumbnailer.h; sourceTree = "<group>"; };
 		59120F0318DE7EB100DEE1B1 /* Thumbnailer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thumbnailer.m; sourceTree = "<group>"; };
+		593F5BEA18DFC659002956DB /* IEDGolfRoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEDGolfRoundViewController.h; sourceTree = "<group>"; };
+		593F5BEB18DFC659002956DB /* IEDGolfRoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEDGolfRoundViewController.m; sourceTree = "<group>"; };
+		593F5BED18DFE082002956DB /* Hole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hole.h; sourceTree = "<group>"; };
+		593F5BEE18DFE082002956DB /* Hole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hole.m; sourceTree = "<group>"; };
+		593F5BF318DFE5E1002956DB /* Round.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round.h; sourceTree = "<group>"; };
+		593F5BF418DFE5E1002956DB /* Round.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Round.m; sourceTree = "<group>"; };
 		5944C21718DEBA8400C4DF9B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		5944C22B18DED3AB00C4DF9B /* Round.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round.h; sourceTree = "<group>"; };
-		5944C22C18DED3AB00C4DF9B /* Round.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Round.m; sourceTree = "<group>"; };
-		5944C22E18DED3AC00C4DF9B /* Hole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hole.h; sourceTree = "<group>"; };
-		5944C22F18DED3AC00C4DF9B /* Hole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hole.m; sourceTree = "<group>"; };
 		C092FEA43D7747C3B0198EA0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		EDF8DFFACE7A4A0D995FD35D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -210,11 +213,11 @@
 		59120F0B18DE89C400DEE1B1 /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
+				593F5BED18DFE082002956DB /* Hole.h */,
+				593F5BEE18DFE082002956DB /* Hole.m */,
 				5944C21618DEBA8400C4DF9B /* Model.xcdatamodeld */,
-				5944C22E18DED3AC00C4DF9B /* Hole.h */,
-				5944C22F18DED3AC00C4DF9B /* Hole.m */,
-				5944C22B18DED3AB00C4DF9B /* Round.h */,
-				5944C22C18DED3AB00C4DF9B /* Round.m */,
+				593F5BF318DFE5E1002956DB /* Round.h */,
+				593F5BF418DFE5E1002956DB /* Round.m */,
 			);
 			name = "Data Model";
 			sourceTree = "<group>";
@@ -222,6 +225,8 @@
 		59120F0C18DE89CC00DEE1B1 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				593F5BEA18DFC659002956DB /* IEDGolfRoundViewController.h */,
+				593F5BEB18DFC659002956DB /* IEDGolfRoundViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -366,16 +371,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				593F5BEF18DFE082002956DB /* Hole.m in Sources */,
+				593F5BEC18DFC659002956DB /* IEDGolfRoundViewController.m in Sources */,
 				59120ECD18DE7B2100DEE1B1 /* main.m in Sources */,
-				5944C23018DED3AC00C4DF9B /* Hole.m in Sources */,
 				59120F0A18DE7EB100DEE1B1 /* Thumbnailer.m in Sources */,
 				59120F0918DE7EB100DEE1B1 /* Faulter.m in Sources */,
 				59120F0818DE7EB100DEE1B1 /* Deduplicator.m in Sources */,
 				59120F0518DE7EB100DEE1B1 /* CoreDataImporter.m in Sources */,
-				5944C22D18DED3AB00C4DF9B /* Round.m in Sources */,
 				59120F0618DE7EB100DEE1B1 /* CoreDataPickerTF.m in Sources */,
 				59120ED118DE7B2100DEE1B1 /* IEDAppDelegate.m in Sources */,
 				5944C21818DEBA8400C4DF9B /* Model.xcdatamodeld in Sources */,
+				593F5BF518DFE5E1002956DB /* Round.m in Sources */,
 				59120F0418DE7EB100DEE1B1 /* CoreDataHelper.m in Sources */,
 				59120F0718DE7EB100DEE1B1 /* CoreDataTVC.m in Sources */,
 			);
@@ -459,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -491,7 +497,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
