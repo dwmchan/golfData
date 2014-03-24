@@ -2,7 +2,7 @@
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="Hole" representedClassName="Hole" syncable="YES">
         <attribute name="handicap" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="holeID" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="index" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <attribute name="length" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <attribute name="matchIndex" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
@@ -21,7 +21,7 @@
         <relationship name="holes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Hole" inverseName="round" inverseEntity="Hole" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Hole" positionX="-470" positionY="26" width="128" height="193"/>
+        <element name="Hole" positionX="-470" positionY="26" width="128" height="30"/>
         <element name="Round" positionX="-272" positionY="56" width="128" height="135"/>
     </elements>
 </model>

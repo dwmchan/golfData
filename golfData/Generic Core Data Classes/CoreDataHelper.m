@@ -775,11 +775,11 @@ NSString *iCloudStoreFilename = @"iCloud.sqlite";
 
     // Select an attribute in each entity for uniqueness
     #warning Customize for your own data model. Only required when using deep copy (See Chapters 8 and 9)
-    [entities addObject:@"Item"];[attributes addObject:@"name"];
-    [entities addObject:@"Unit"];[attributes addObject:@"name"];
-    [entities addObject:@"LocationAtHome"];[attributes addObject:@"storedIn"];
-    [entities addObject:@"LocationAtShop"];[attributes addObject:@"aisle"];
-    [entities addObject:@"Item_Photo"];[attributes addObject:@"data"];
+    [entities addObject:@"Round"];[attributes addObject:@"roundID"];
+    [entities addObject:@"Hole"];[attributes addObject:@"holeID"];
+//    [entities addObject:@"LocationAtHome"];[attributes addObject:@"storedIn"];
+//    [entities addObject:@"LocationAtShop"];[attributes addObject:@"aisle"];
+//    [entities addObject:@"Item_Photo"];[attributes addObject:@"data"];
     
     NSDictionary *dictionary = [NSDictionary dictionaryWithObjects:attributes
                                                            forKeys:entities];
@@ -972,7 +972,7 @@ NSString *iCloudStoreFilename = @"iCloud.sqlite";
     @{
       NSMigratePersistentStoresAutomaticallyOption:@YES
       ,NSInferMappingModelAutomaticallyOption:@YES
-      ,NSPersistentStoreUbiquitousContentNameKey:@"Grocery-Dude"
+      ,NSPersistentStoreUbiquitousContentNameKey:@"golfData"
       //,NSPersistentStoreUbiquitousContentURLKey:@"ChangeLogs" // Optional since iOS7
       };
     NSError *error;
@@ -1147,8 +1147,8 @@ NSString *iCloudStoreFilename = @"iCloud.sqlite";
             NSLog(@"*** STARTED DEEP COPY FROM NON-ICLOUD STORE TO ICLOUD STORE ***");
 
             #warning Customize this array to choose what entities should be merged with iCloud
-            NSArray *entitiesToCopy = [NSArray arrayWithObjects:@"LocationAtHome",@"LocationAtShop",@"Unit",@"Item", nil];
-            
+//            NSArray *entitiesToCopy = [NSArray arrayWithObjects:@"LocationAtHome",@"LocationAtShop",@"Unit",@"Item", nil];
+            NSArray *entitiesToCopy = [NSArray arrayWithObjects:@"Round", @"Hole", nil];
             CoreDataImporter *importer = [[CoreDataImporter alloc] initWithUniqueAttributes:[self selectedUniqueAttributes]];
             
             [importer deepCopyEntities:entitiesToCopy
@@ -1222,7 +1222,7 @@ NSString *iCloudStoreFilename = @"iCloud.sqlite";
     
     NSDictionary *options =
     @{
-      NSPersistentStoreUbiquitousContentNameKey:@"Grocery-Dude"
+      NSPersistentStoreUbiquitousContentNameKey:@"golfData"
       //,NSPersistentStoreUbiquitousContentURLKey:@"ChangeLogs" // Optional since iOS7
       };
     NSError *error;
